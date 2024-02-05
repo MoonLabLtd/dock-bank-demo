@@ -3,7 +3,7 @@ export const SERVER_URL =
   process.env.NEXT_PUBLIC_VERCEL_URL ||
   'http://localhost:3000';
 
-export const BANK_NAME = 'Moonlab';
+export const BANK_NAME = 'Dale';
 export const HOTEL_NAME = 'Dockside Resorts';
 
 export default {

@@ -5,7 +5,7 @@ import clsx from 'clsx';
 
 import { useLocalStorage } from 'utils/hooks';
 import { extractCredentialSubjectFromProofRequest } from 'utils';
-import { BANK_NAME } from 'utils/constants';
+// import { BANK_NAME } from 'utils/constants';
 
 const navLinks = [
   {
@@ -49,18 +49,18 @@ const Sidebar = () => {
       <div>
         <div className="px-6 py-4 -mx-6 text-center">
           <a
-            href="https://dock.io"
+            href="https://themoonlab.co"
             target="_blank"
             title="home"
             rel="noreferrer"
             className="flex items-center gap-2"
           >
             <img
-              src="/moonlablogo.svg"
+              src="/dalelogo.png"
               alt="moonlab logo"
-              className="w-12 h-12"
+              // className="w-12 h-12"
             />
-            <span className="text-2xl font-bold">{BANK_NAME}</span>
+            {/* <span className="text-2xl font-bold">{BANK_NAME}</span> */}
           </a>
         </div>
         <div className="mt-8 text-center">
