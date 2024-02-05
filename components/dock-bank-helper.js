@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import Button from 'components/button';
 import { useLocalStorage } from 'utils/hooks';
+import QrReader from './qr-reader';
 
 export default function Helper() {
   const [isHelperOpen, setIsHelperOpen] = useState(false);
@@ -48,6 +49,9 @@ export default function Helper() {
             <div className="flex flex-col items-center p-4 space-y-8">
               <p>Current loaded holder DID:</p>
               <p>{holderDID}</p>
+              <p>Input your DID or Scan it using the Qr Reader:</p>
+
+              <QrReader setDID={setFormDID} />
               <div className="flex items-center w-full px-3 py-2 border-2 rounded">
                 <input
                   className="w-full pl-2 border-none outline-none"
