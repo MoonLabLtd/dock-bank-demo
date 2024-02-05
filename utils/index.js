@@ -1,7 +1,7 @@
 export const informations = {
-  name: 'Alice Doe',
+  name: 'Jack Chen',
   address: '123 Main St',
-  email: 'alice@hsbc.com',
+  email: 'jack@themoonlab.co',
   phone: '1234-5555',
   dateOfBirth: '1990-01-01',
   rewardId: '123123123',
