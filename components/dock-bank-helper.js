@@ -65,7 +65,7 @@ export default function Helper() {
                   className="w-full pl-2 border-none outline-none"
                   type="text"
                   name="recipientEmail"
-                  placeholder="alice@dock.io"
+                  placeholder="alice@hsbc.com"
                   value={formRecipientEmail}
                   onChange={(e) => setFormRecipientEmail(e.target.value)}
                 />

@@ -64,14 +64,14 @@ export default function Home() {
             </h1>
 
             <p className="mt-1 text-white">
-              In this interactive demo you will see how Dock&apos;s technology can be used to solve
+              In this interactive demo you will see how Moonlab&apos;s technology can be used to solve
               real world problems. Verifiable Credentials allow users to interact with various
               services in a trusted manner and prove to others their attestations. This is just one
               use case of many.
             </p>
             <br />
             <br />
-            <h3 className="font-bold text-white">
+            {/* <h3 className="font-bold text-white">
               Get the Dock Wallet to store and manage credentials
             </h3>
 
@@ -103,7 +103,7 @@ export default function Home() {
                   />
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

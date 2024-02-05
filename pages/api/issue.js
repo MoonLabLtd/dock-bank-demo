@@ -1,6 +1,7 @@
 import axios from 'axios';
-
 import { informations } from 'utils';
+// eslint-disable-next-line import/no-extraneous-dependencies
+// require('dotenv').config();
 
 const axiosHeaders = {
   headers: {

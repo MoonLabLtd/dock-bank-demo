@@ -1,11 +1,11 @@
 export const informations = {
   name: 'Alice Doe',
   address: '123 Main St',
-  email: 'alice@dock.io',
-  phone: '555-555-5555',
+  email: 'alice@hsbc.com',
+  phone: '1234-5555',
   dateOfBirth: '1990-01-01',
   rewardId: '123123123',
-  bookingDates: '2022-12-23 - 2022-12-28',
+  bookingDates: '2024-06-23 - 2024-06-31',
   bookingNoOfGuests: 5,
   bookingRoomType: 'Deluxe',
 };
