@@ -11,6 +11,9 @@ const axiosHeaders = {
 
 const baseUrl = process.env.DOCK_API_URL;
 const issuerDID = process.env.DOCK_API_DID;
+const issuerBankDID = process.env.DOCK_API_DID_BANK;
+const issuerTravelDID = process.env.DOCK_API_DID_TRAVEL;
+const issuerKYCDID = process.env.DOCK_API_DID_KYC;
 
 const credentialTypes = {
   customerCredential({ holderDID }) {
@@ -31,7 +34,7 @@ const credentialTypes = {
     return {
       name: 'Bank Account Details',
       type: ['VerifiableCredential', 'BankAccountDetails'],
-      issuer: issuerDID,
+      issuer: issuerBankDID,
       subject: {
         id: holderDID,
         checkingAccount: '**1234',
@@ -43,7 +46,7 @@ const credentialTypes = {
     return {
       name: 'KYC Credentials',
       type: ['VerifiableCredential', 'KYCCredential'],
-      issuer: issuerDID,
+      issuer: issuerKYCDID,
       subject: {
         id: holderDID,
         verifiedBy: 'IDV Provider',
@@ -55,7 +58,7 @@ const credentialTypes = {
     return {
       name: 'Rewards Elegibility',
       type: ['VerifiableCredential', 'RewardsProgram'],
-      issuer: issuerDID,
+      issuer: issuerTravelDID,
       subject: {
         id: holderDID,
         eligibility: true,
