@@ -3,7 +3,7 @@ import React from 'react';
 import Sidebar from 'components/sidebar';
 import clsx from 'clsx';
 
-export default function PageLayout({ title, withSidebar = true, children }) {
+export default function PageLayout({ title, titleImage, withSidebar = true, children }) {
   const mainClasses = clsx(
     'mb-6 lg:w-[75%] xl:w-[80%] 2xl:w-[85%]',
     withSidebar ? 'ml-auto' : 'mx-auto'
@@ -20,6 +20,9 @@ export default function PageLayout({ title, withSidebar = true, children }) {
         {title && (
           <div className="sticky z-10 top-0 h-13 bg-white lg:py-2.5 px-3 md:lg:xl:px-10">
             <div className={titleWrapperClasses}>
+              {titleImage ? (
+                <img className='w-20 mr-4' src={titleImage}/>
+              ) : null}
               <h5 hidden className="pt-6 pb-4 text-2xl font-medium text-gray-600 lg:block">
                 {title}
               </h5>

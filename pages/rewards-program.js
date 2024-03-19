@@ -158,7 +158,8 @@ export default function RewardsProgram() {
 
   return (
     <PageLayout
-      title={step === 0 || step === 1 ? `${BANK_NAME} Freedom Rewards` : 'Checkout'}
+    titleImage="/Singtel_logo.png"
+      title={step === 0 || step === 1 ? 'Singtel Hotel Rewards' : 'Checkout'}
       withSidebar={false}>
       {(step === 0 || step === 1) && (
         <div className="flex flex-col items-center justify-center bg-bottom bg-cover rounded bg-hero-resort h-96">
