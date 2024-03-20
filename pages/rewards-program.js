@@ -7,7 +7,7 @@ import InteractiveFormField from 'components/interactive-form-field';
 import InfoAlert from 'components/info-alert';
 import { informations, extractCredentialSubjectFromProofRequest } from 'utils';
 
-import { BANK_NAME, HOTEL_NAME } from 'utils/constants';
+import { HOTEL_NAME } from 'utils/constants';
 
 const CustomerInfoForm = ({ handleFormSubmit, proofRequestData = null }) => (
   <form onSubmit={handleFormSubmit} className="grid w-full grid-cols-2 gap-4 p-8 mx-auto">
