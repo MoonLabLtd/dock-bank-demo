@@ -41,7 +41,7 @@ export default function CreditCard() {
   };
 
   return (
-    <PageLayout title={`${BANK_NAME} - Credit card`}>
+    <PageLayout title={`${BANK_NAME} - Loan Application`}>
       {!isFormSubmitted && !isApplicationSubmitted && (
         <div className="grid w-full grid-cols-2 gap-2 px-8 md:px-32 lg:px-24">
           <div className="border-4 border-dashed">

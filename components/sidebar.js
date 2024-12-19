@@ -8,26 +8,26 @@ import { extractCredentialSubjectFromProofRequest } from 'utils';
 // import { BANK_NAME } from 'utils/constants';
 
 const navLinks = [
+  // {
+  //   title: 'Dashboard',
+  //   link: '/dashboard',
+  //   target: '_self',
+  // },
   {
-    title: 'Dashboard',
-    link: '/dashboard',
-    target: '_self',
-  },
-  {
-    title: 'Credit Card',
+    title: 'Loan Application',
     link: '/credit-card',
     target: '_self',
   },
-  {
-    title: 'Reward Program',
-    link: '/rewards-program',
-    target: '_blank',
-  },
-  {
-    title: 'Customer Service',
-    link: '/customer-service',
-    target: '_self',
-  },
+  // {
+  //   title: 'Reward Program',
+  //   link: '/rewards-program',
+  //   target: '_blank',
+  // },
+  // {
+  //   title: 'Customer Service',
+  //   link: '/customer-service',
+  //   target: '_self',
+  // },
 ];
 
 const Sidebar = () => {
