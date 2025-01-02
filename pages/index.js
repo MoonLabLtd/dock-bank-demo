@@ -12,7 +12,7 @@ export default function Home() {
 
   const onPresentedProof = (data) => {
     setUserData(data);
-    router.push('/credit-card');
+    router.push('/loan-application');
   };
 
   return (
@@ -40,7 +40,7 @@ export default function Home() {
             <Button
               type="button"
               className="block w-full"
-              onClick={() => router.push('/credit-card')}>
+              onClick={() => router.push('/loan-application')}>
               Loan Application
             </Button>
           </div>

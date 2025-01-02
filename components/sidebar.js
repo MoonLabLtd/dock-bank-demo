@@ -15,7 +15,7 @@ const navLinks = [
   // },
   {
     title: 'Loan Application',
-    link: '/credit-card',
+    link: '/loan-application',
     target: '_self',
   },
   // {

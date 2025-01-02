@@ -6,8 +6,8 @@ import BankingAccountSummary from 'components/banking-account-summary';
 
 const sections = [
   {
-    title: 'Credit Card',
-    link: '/credit-card',
+    title: 'Loan Application',
+    link: '/loan-application',
     disabled: false,
     target: '_self',
   },

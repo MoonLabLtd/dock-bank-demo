@@ -260,7 +260,7 @@ const proofRequestTypes = {
         },
       ],
     },
-    name: 'Credit Card Proof Request',
+    name: 'Loan Application Proof Request',
   },
 };
 

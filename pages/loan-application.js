@@ -65,7 +65,7 @@ export default function CreditCard() {
       {isApplicationSubmitted && (
         <h2 className="px-8 mb-6 font-bold text-center text-gray-800 text-l">
           By securely sharing your bank credentials, you&apos;ve been instantly approved for a{' '}
-          {BANK_NAME} credit card! Start using it today!
+          {BANK_NAME} loan application! Start using it today!
         </h2>
       )}
     </PageLayout>
