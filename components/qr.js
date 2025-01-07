@@ -8,7 +8,7 @@ export default function QRDisplay({ value }) {
         <QRCode value={value} />
       </div>
       <div className="flex justify-center w-full mt-6 md:mt-6 md:hidden">
-        <a href={`daleapp://proof-request?url=${value}`} className="block px-6 py-3 mt-5 mb-2 text-xl font-semibold text-white transition-all bg-blue-600 rounded-full hover:bg-blue-700 hover:-translate-y-1 duration-250">
+        <a href={`dockwallet://proof-request?url=${value}`} className="block px-6 py-3 mt-5 mb-2 text-xl font-semibold text-white transition-all bg-blue-600 rounded-full hover:bg-blue-700 hover:-translate-y-1 duration-250">
           Open Deep Link
         </a>
       </div>
