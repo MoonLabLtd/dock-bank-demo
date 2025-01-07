@@ -30,7 +30,7 @@ export default function PageLayout({ title, titleImage, withSidebar = true, chil
             </div>
           </div>
         )}
-        <div className="px-6 pt-6 2xl:container">
+        <div className="md:px-6 pt-6 2xl:container">
           {children}
         </div>
       </div>
